@@ -13,6 +13,7 @@
 		D4CA9F4A24D6FA4700544F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CA9F4924D6FA4700544F26 /* Assets.xcassets */; };
 		D4CA9F4D24D6FA4700544F26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CA9F4C24D6FA4700544F26 /* Preview Assets.xcassets */; };
 		D4CA9F5024D6FA4700544F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CA9F4E24D6FA4700544F26 /* LaunchScreen.storyboard */; };
+		D4CA9F5824D6FB0500544F26 /* AppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA9F5724D6FB0500544F26 /* AppBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D4CA9F4C24D6FA4700544F26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4CA9F4F24D6FA4700544F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4CA9F5124D6FA4700544F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CA9F5724D6FB0500544F26 /* AppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D4CA9F4E24D6FA4700544F26 /* LaunchScreen.storyboard */,
 				D4CA9F5124D6FA4700544F26 /* Info.plist */,
 				D4CA9F4B24D6FA4700544F26 /* Preview Content */,
+				D4CA9F5724D6FB0500544F26 /* AppBar.swift */,
 			);
 			path = Dicee_SwiftUI;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4CA9F4424D6FA4600544F26 /* AppDelegate.swift in Sources */,
+				D4CA9F5824D6FB0500544F26 /* AppBar.swift in Sources */,
 				D4CA9F4624D6FA4600544F26 /* SceneDelegate.swift in Sources */,
 				D4CA9F4824D6FA4600544F26 /* ContentView.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				DEVELOPMENT_TEAM = 99F6V6VQPQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Dicee_SwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				DEVELOPMENT_TEAM = 99F6V6VQPQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Dicee_SwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
